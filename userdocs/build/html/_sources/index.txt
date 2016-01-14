@@ -15,6 +15,8 @@ Welcome to CityadsUserdocs's documentation!
 .. toctree::
    :maxdepth: 3
 
+   newoffice
+   money
    office
    Statistic
 
