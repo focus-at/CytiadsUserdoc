@@ -6,8 +6,7 @@ Welcome to CityadsUserdocs's documentation!
 На этом сайте предоставлена иформация для пользователей Cityads.
 ::
 
-    код на страницах
-    и еще строка
+    Если вы не найдете ответов на свои вопросы на этому сайте, пожаулйста, обратитесь в техническую поддержку (mail@city.com).
 
 
 Содеражание:
@@ -16,10 +15,7 @@ Welcome to CityadsUserdocs's documentation!
    :maxdepth: 3
 
    newoffice
-   money
    office
-   Statistic
-
 
 
 Indices and tables

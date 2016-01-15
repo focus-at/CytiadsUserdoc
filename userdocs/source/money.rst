@@ -28,3 +28,12 @@
 В Cityads на Ваш аккаунт деньги начисляются в валюте, которую вы выбрали при регистрации.
  
 ТАСК: как изменить валюту аккаунта
+
+
+ .. figure:: img/city.png
+   :scale: 100 %
+   :alt: alternate text
+   :align: left
+   :figwidth: 100 %
+
+ pic pic pic
