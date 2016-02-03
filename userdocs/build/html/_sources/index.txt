@@ -24,10 +24,11 @@ Welcome to CityadsUserdocs's documentation!
    content/faq/faq_face.rst
    content/agreements/agree.rst
 
-одеражание:
+Содеражание:
 ************
 .. toctree::
    :maxdepth: 2
+   :caption: CAPTION
 
    content/introduction/introduction.rst
    content/start/quick_start_guide.rst

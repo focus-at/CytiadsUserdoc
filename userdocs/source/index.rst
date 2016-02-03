@@ -28,6 +28,7 @@ Welcome to CityadsUserdocs's documentation!
 ************
 .. toctree::
    :maxdepth: 2
+   :caption: CAPTION
 
    content/introduction/introduction.rst
    content/start/quick_start_guide.rst
