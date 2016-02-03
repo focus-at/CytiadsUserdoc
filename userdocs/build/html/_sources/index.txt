@@ -24,7 +24,13 @@ Welcome to CityadsUserdocs's documentation!
    content/faq/faq_face.rst
    content/agreements/agree.rst
 
+одеражание:
+************
+.. toctree::
+   :maxdepth: 2
 
+   content/introduction/introduction.rst
+   content/start/quick_start_guide.rst
 
 
 Indices and tables
