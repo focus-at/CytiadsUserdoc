@@ -1,3 +1,5 @@
+.. _agreement-section-label:
+
 Соглашения
 ==========
 
