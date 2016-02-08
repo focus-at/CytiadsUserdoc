@@ -1,0 +1,1 @@
+.. |ruble| unicode:: U+20BD

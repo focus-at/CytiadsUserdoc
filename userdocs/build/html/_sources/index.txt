@@ -1,3 +1,5 @@
+.. include:: content/0.service/unicode_characters.rst
+
 Добро пожаловать в документацию вебмастера CityADS!
 =======================================================
 .. _support: https://help.cityads.com/hc/ru/requests/new
@@ -61,4 +63,3 @@ Indices and tables
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
-

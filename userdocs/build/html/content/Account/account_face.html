@@ -6,7 +6,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>TEST-HEAD &mdash; Документация CityadsUserdocs 0.1</title>
+    <title>Персональная информация &mdash; Документация CityadsUserdocs 0.1</title>
     
     <link rel="stylesheet" href="../../_static/classic.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
@@ -50,27 +50,59 @@
         <div class="bodywrapper">
           <div class="body" role="main">
             
-  <div class="section" id="test-head">
-<h1>TEST-HEAD<a class="headerlink" href="#test-head" title="Ссылка на этот заголовок">¶</a></h1>
-<p>Доходы, выплаченные системой вебмастерам, облагаются налогами. Посмотреть сумму удержанного налога для каждой выплаты можно Детализации в разделе Офис/финансы и выплаты/Начисления и выплаты.</p>
-<p>Налоги, которые удерживает CityADS, бывают двух видов: <a class="reference internal" href="#ndiv-label"><span>международные</span></a> и <a class="reference internal" href="#local-label"><span>местные</span></a>.</p>
+  <div class="section" id="id1">
+<h1>Персональная информация<a class="headerlink" href="#id1" title="Ссылка на этот заголовок">¶</a></h1>
+<div class="section" id="id2">
+<h2>Персональные настройки (ник, часовой пояс, безопасность)<a class="headerlink" href="#id2" title="Ссылка на этот заголовок">¶</a></h2>
+</div>
+<div class="section" id="id3">
+<h2>Статус аккаунта<a class="headerlink" href="#id3" title="Ссылка на этот заголовок">¶</a></h2>
+<p>Что такое статус, зачем нужен повышенный статус.</p>
+</div>
+<div class="section" id="api">
+<h2>API<a class="headerlink" href="#api" title="Ссылка на этот заголовок">¶</a></h2>
+<p>Ссылка на описание АПИ. Зачем это нужно и кто его применяет.</p>
+<p>Какая выгода, API use cases…</p>
+</div>
+<p>Какая выгода, API use cases…</p>
+</div>
+<div class="section" id="id4">
+<h1>Финансовая информация<a class="headerlink" href="#id4" title="Ссылка на этот заголовок">¶</a></h1>
+<p>Как это устроено....</p>
+<p>Правила Сити, по которым происходит расчет и перечисление заработанных денег.</p>
+<div class="section" id="id5">
+<h2>Жизненный цикл денег<a class="headerlink" href="#id5" title="Ссылка на этот заголовок">¶</a></h2>
+</div>
+<div class="section" id="id6">
+<h2>Валюты<a class="headerlink" href="#id6" title="Ссылка на этот заголовок">¶</a></h2>
+</div>
+<div class="section" id="id7">
+<h2>График выплат<a class="headerlink" href="#id7" title="Ссылка на этот заголовок">¶</a></h2>
+</div>
+<div class="section" id="id8">
+<h2>Налогообложение<a class="headerlink" href="#id8" title="Ссылка на этот заголовок">¶</a></h2>
+<p>Доходы, выплаченные системой вебмастерам, облагаются налогами. Посмотреть сумму удержанного налога для каждой выплаты можно Детализации в разделе <span class="menuselection">Офис ‣ финансы и выплаты ‣ Начисления и выплаты</span>.</p>
+<p>Налоги, которые удерживает CityADS, бывают двух видов: <a class="reference internal" href="#ndiv-label"><span>международные</span></a> и <a class="reference internal" href="#local-tax-label"><span>местные</span></a>.</p>
 <div class="section" id="ndiv-label">
-<span id="id1"></span><h2>Международные налоги (Налог на доходы у источника выплаты)<a class="headerlink" href="#ndiv-label" title="Ссылка на этот заголовок">¶</a></h2>
+<span id="id9"></span><h3>Международные налоги (Налог на доходы у источника выплаты)<a class="headerlink" href="#ndiv-label" title="Ссылка на этот заголовок">¶</a></h3>
 <p>Налог на доходы у источника выплаты удерживает государство, на территории которого был получен доход, если этот доход выводится за пределы этого государства. Их можно называть международные налоги, потому что они удерживаются только при межгосударственных перечислениях.
 На текущий момент Международный налог удерживается, если оффер, с которого идет доход, относится к Бразилии (ставка 15%) или Китаю (ставка 10%).</p>
 <p class="rubric">Пример расчета НДИВ</p>
 <p>Вебмастер Сережа зарегистрирован в России и получает доход с бразильского оффера Netshoes и нескольких российский офферов. Предположим, что Сережа заработал 1000 рублей с Netshoes  и 3000 с разных российских офферов.
 Во время плановой выплаты эти деньги переводятся на внешний счет Сережи. Но сперва 1000 рублей надо перевести из Бразилии в Россию и за этот перевод надо заплатить международный налог (для Бразилии это 15%). Тогда всего у Сережи останется:</p>
-<p>3000 ру + (1000 - 15%) ру = 3000 ру + 850  ру = 3 850 ру.</p>
+<p>3000 <a href="#id16"><span class="problematic" id="id17">|ruble|</span></a> + (1000 - 15%) <a href="#id18"><span class="problematic" id="id19">|ruble|</span></a> = 3000 <a href="#id20"><span class="problematic" id="id21">|ruble|</span></a> + 850 <a href="#id22"><span class="problematic" id="id23">|ruble|</span></a> = 3 850 <a href="#id24"><span class="problematic" id="id25">|ruble|</span></a>.</p>
 </div>
-<div class="section" id="local-label">
-<span id="id2"></span><h2>Местные налоги<a class="headerlink" href="#local-label" title="Ссылка на этот заголовок">¶</a></h2>
+<div class="section" id="local-tax-label">
+<span id="id10"></span><h3>Местные налоги<a class="headerlink" href="#local-tax-label" title="Ссылка на этот заголовок">¶</a></h3>
 <p>Если выводить средства на электронные счета WebMoney или Яндекс.Деньги, то местные налоги не удерживаются системой Cityads, обязанность по уплате налогов, в данном случае, ложится на пользователя.</p>
 <p>Если пользователь выводит деньги на банковский счет или ситему PayPal, то Cityads удерживает налоги со счетов пользователей и становится налоговым агентом пользователя (это значит, что Cityads уплачивает налоги за пользователя).
 На текущий момент местный налог удерживается, если банковский счет и счет PayPal, на который выводятся средства, находится в России (43% для физических лиц) или Бразилии (ставку можно уточнить в техподдержке).</p>
-<p>Вебмастера, которые зарегистрированы  как юридические лица, могут уплачивать НДС в размере 18% от дохода через Cityads. Для этого нужно обратиться в техническую поддержку.</p>
-<div class="section" id="id3">
-<h3>Как рассчитать выплату<a class="headerlink" href="#id3" title="Ссылка на этот заголовок">¶</a></h3>
+<div class="admonition note">
+<p class="first admonition-title">Примечание</p>
+<p class="last">Вебмастера, которые зарегистрированы  как юридические лица, могут уплачивать НДС в размере 18% от дохода через Cityads. Для этого нужно обратиться в техническую поддержку.</p>
+</div>
+<div class="section" id="id11">
+<h4>Как рассчитать выплату<a class="headerlink" href="#id11" title="Ссылка на этот заголовок">¶</a></h4>
 <p>В системе применяется следующий алгоритм расчета выплат на банковские и PayPal счета пользователей:</p>
 <ol class="arabic simple">
 <li>Сумма внутреннего счета в Cityads это количество денег, которые находятся в Cityads и не облагались налогами.</li>
@@ -88,59 +120,27 @@
 </ol>
 <p>Внешний счет, на который Сережа получает плановые выплаты - это банковский счет. А этот тип счета облагается местным налогом. То есть, из всей суммы выплаты надо вычесть НДС и социальный налог, ведь Сережа живет в России.</p>
 <ol class="arabic simple" start="3">
-<li>3850 - 43% =   2194,50 рублей поступит на банковский счет Сережи .</li>
+<li>3850 - 43% =   2194,50 рублей поступит на банковский счет Сережи.</li>
 </ol>
 </div>
-<div class="section" id="id4">
-<h3>Персональная информация<a class="headerlink" href="#id4" title="Ссылка на этот заголовок">¶</a></h3>
-<div class="section" id="id5">
-<h4>Персональные настройки (ник, часовой пояс, безопасность)<a class="headerlink" href="#id5" title="Ссылка на этот заголовок">¶</a></h4>
 </div>
-<div class="section" id="id6">
-<h4>Статус аккаунта<a class="headerlink" href="#id6" title="Ссылка на этот заголовок">¶</a></h4>
-<p>Что такое статус, зачем нужен повышенный статус.</p>
-</div>
-<div class="section" id="api">
-<h4>API<a class="headerlink" href="#api" title="Ссылка на этот заголовок">¶</a></h4>
-<p>Ссылка на описание АПИ. Зачем это нужно и кто его применяет.</p>
-<p>Какая выгода, API use cases…</p>
-</div>
-</div>
-<div class="section" id="id7">
-<h3>Финансовая информация<a class="headerlink" href="#id7" title="Ссылка на этот заголовок">¶</a></h3>
-<div class="section" id="id8">
-<h4>Как это устроено<a class="headerlink" href="#id8" title="Ссылка на этот заголовок">¶</a></h4>
-<p>Правила Сити, по которым происходит расчет и перечисление заработанных денег.</p>
-<div class="section" id="id9">
-<h5>Жизненный цикл денег?...<a class="headerlink" href="#id9" title="Ссылка на этот заголовок">¶</a></h5>
-</div>
-<div class="section" id="id10">
-<h5>Валюты<a class="headerlink" href="#id10" title="Ссылка на этот заголовок">¶</a></h5>
-</div>
-<div class="section" id="id11">
-<h5>График выплат<a class="headerlink" href="#id11" title="Ссылка на этот заголовок">¶</a></h5>
 </div>
 <div class="section" id="id12">
-<h5>Налогообложение<a class="headerlink" href="#id12" title="Ссылка на этот заголовок">¶</a></h5>
-</div>
-</div>
+<h2>Внутренний счет<a class="headerlink" href="#id12" title="Ссылка на этот заголовок">¶</a></h2>
 <div class="section" id="id13">
-<h4>Внутренний счет<a class="headerlink" href="#id13" title="Ссылка на этот заголовок">¶</a></h4>
-<p>История операций</p>
+<h3>История операций<a class="headerlink" href="#id13" title="Ссылка на этот заголовок">¶</a></h3>
+<p>Описание вкладки История операций, какие операции и насколько актуальная информация</p>
+</div>
 <div class="section" id="id14">
-<h5>Кредитование<a class="headerlink" href="#id14" title="Ссылка на этот заголовок">¶</a></h5>
+<h3>Кредитование<a class="headerlink" href="#id14" title="Ссылка на этот заголовок">¶</a></h3>
 </div>
 </div>
 <div class="section" id="id15">
-<h4>Внешний счет<a class="headerlink" href="#id15" title="Ссылка на этот заголовок">¶</a></h4>
+<h2>Внешний счет<a class="headerlink" href="#id15" title="Ссылка на этот заголовок">¶</a></h2>
 <p>История начислений</p>
 <p>Какие системы доступны для вывода средств</p>
-</div>
-<div class="section" id="id16">
-<h4>Агентский кабинет<a class="headerlink" href="#id16" title="Ссылка на этот заголовок">¶</a></h4>
+<p>Агентский кабинет</p>
 <p>Какие бывают агентские кабинеты</p>
-</div>
-</div>
 </div>
 </div>
 
@@ -152,34 +152,30 @@
         <div class="sphinxsidebarwrapper">
   <h3><a href="../../index.html">Оглавление</a></h3>
   <ul>
-<li><a class="reference internal" href="#">TEST-HEAD</a><ul>
-<li><a class="reference internal" href="#ndiv-label">Международные налоги (Налог на доходы у источника выплаты)</a></li>
-<li><a class="reference internal" href="#local-label">Местные налоги</a><ul>
-<li><a class="reference internal" href="#id3">Как рассчитать выплату</a></li>
-<li><a class="reference internal" href="#id4">Персональная информация</a><ul>
-<li><a class="reference internal" href="#id5">Персональные настройки (ник, часовой пояс, безопасность)</a></li>
-<li><a class="reference internal" href="#id6">Статус аккаунта</a></li>
+<li><a class="reference internal" href="#">Персональная информация</a><ul>
+<li><a class="reference internal" href="#id2">Персональные настройки (ник, часовой пояс, безопасность)</a></li>
+<li><a class="reference internal" href="#id3">Статус аккаунта</a></li>
 <li><a class="reference internal" href="#api">API</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#id7">Финансовая информация</a><ul>
-<li><a class="reference internal" href="#id8">Как это устроено</a><ul>
-<li><a class="reference internal" href="#id9">Жизненный цикл денег?...</a></li>
-<li><a class="reference internal" href="#id10">Валюты</a></li>
-<li><a class="reference internal" href="#id11">График выплат</a></li>
-<li><a class="reference internal" href="#id12">Налогообложение</a></li>
+<li><a class="reference internal" href="#id4">Финансовая информация</a><ul>
+<li><a class="reference internal" href="#id5">Жизненный цикл денег</a></li>
+<li><a class="reference internal" href="#id6">Валюты</a></li>
+<li><a class="reference internal" href="#id7">График выплат</a></li>
+<li><a class="reference internal" href="#id8">Налогообложение</a><ul>
+<li><a class="reference internal" href="#ndiv-label">Международные налоги (Налог на доходы у источника выплаты)</a></li>
+<li><a class="reference internal" href="#local-tax-label">Местные налоги</a><ul>
+<li><a class="reference internal" href="#id11">Как рассчитать выплату</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#id13">Внутренний счет</a><ul>
+</ul>
+</li>
+<li><a class="reference internal" href="#id12">Внутренний счет</a><ul>
+<li><a class="reference internal" href="#id13">История операций</a></li>
 <li><a class="reference internal" href="#id14">Кредитование</a></li>
 </ul>
 </li>
 <li><a class="reference internal" href="#id15">Внешний счет</a></li>
-<li><a class="reference internal" href="#id16">Агентский кабинет</a></li>
-</ul>
-</li>
-</ul>
-</li>
 </ul>
 </li>
 </ul>
