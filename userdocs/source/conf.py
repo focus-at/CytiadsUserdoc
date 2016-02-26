@@ -90,7 +90,7 @@ exclude_patterns = []
 #add_module_names = True
 
 # If true, sectionauthor and moduleauthor directives will be shown in the
-# output. They are ignored by default.
+# output. They are ignored by default. DeetDomVewdyuarHait3
 #show_authors = False
 
 # The name of the Pygments (syntax highlighting) style to use.
@@ -110,7 +110,7 @@ todo_include_todos = False
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
-html_theme = 'default'
+html_theme = 'sphinx_rtd_theme'
 
 
 # Theme options are theme-specific and customize the look and feel of a theme
@@ -119,7 +119,7 @@ html_theme = 'default'
 #html_theme_options = {}
 
 # Add any paths that contain custom themes here, relative to this directory.
-#html_theme_path = []
+html_theme_path = ["_themes", ]
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
