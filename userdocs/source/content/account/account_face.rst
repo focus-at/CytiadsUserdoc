@@ -72,3 +72,4 @@ API
 
 Какие бывают агентские кабинеты
 
+.. include:: ../0.service/unicode_characters.rst
