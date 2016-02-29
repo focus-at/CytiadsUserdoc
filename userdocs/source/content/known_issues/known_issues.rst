@@ -1,4 +1,7 @@
-.. include:: <replace.rst>
+.. toctree::
+  :hidden:
+  
+  replace.rst
 
 .. _known_issues-section-label:
 
