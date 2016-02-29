@@ -19,3 +19,5 @@
 
 
 :abbr:`LIFO (|name2|)`.
+
+Try |name2|
