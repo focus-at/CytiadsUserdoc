@@ -9,4 +9,6 @@
 
 :abbr:`LIFO (last-in, first-out)`.
 
+.. include:: <replace.rst>
 
+:abbr:`LIFO (|name2|)`.
