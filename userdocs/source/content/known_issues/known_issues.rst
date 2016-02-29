@@ -3,8 +3,6 @@
   
   replace.rst
   
-.. |name2| replace:: replacement *text* 2
-
 .. _known_issues-section-label:
 
 Известные проблемы
