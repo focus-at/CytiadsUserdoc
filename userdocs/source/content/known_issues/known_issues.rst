@@ -1,3 +1,5 @@
+.. include:: <replace.rst>
+
 .. _known_issues-section-label:
 
 Известные проблемы
@@ -9,6 +11,6 @@
 
 :abbr:`LIFO (last-in, first-out)`.
 
-.. include:: <replace.rst>
+
 
 :abbr:`LIFO (|name2|)`.
