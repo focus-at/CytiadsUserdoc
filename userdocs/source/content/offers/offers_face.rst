@@ -61,7 +61,7 @@
 
 Вот так, в целом, выглядит цепочка действий посетителя:
 
-.. figure:: _static/img/offers/clik_life_cycle.png
+.. figure:: img/offers/clik_life_cycle.png
        :scale: 100 %
        :align: center
        :alt: Цепочка жизненного цикла Клика
