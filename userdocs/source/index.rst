@@ -44,6 +44,7 @@
    :caption: Работа с офферами
 
    content/offers/offers_face.rst
+   content/offers/conversion.rst
    content/instruments/instruments_face.rst
    content/statistics/statistics_face.rst
 
