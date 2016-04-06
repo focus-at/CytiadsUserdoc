@@ -45,6 +45,7 @@
 
    content/offers/offers_face.rst
    content/offers/conversion.rst
+   content/offers/offers_interface.rst
    content/instruments/instruments_face.rst
    content/statistics/statistics_face.rst
 
