@@ -29,6 +29,7 @@
 ************
 .. toctree::
    :maxdepth: 3
+   :caption: Начало работы
 
    content/start/start_common.rst 
    content/start/interface_overview.rst 
