@@ -30,6 +30,8 @@
 .. toctree::
    :maxdepth: 3
 
+   content/start/start_common.rst 
+   content/start/interface_overview.rst 
    content/start/quick_start_guide.rst 
 
 
