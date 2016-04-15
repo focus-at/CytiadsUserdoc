@@ -41,6 +41,7 @@
    :caption: Аккаунт и счета
 
    content/account/account_face.rst
+   content/account/finance.rst
    content/account/office_overview.rst
    
 .. toctree::
