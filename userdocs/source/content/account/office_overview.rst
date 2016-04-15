@@ -8,7 +8,7 @@
 
 Итак, на вкладке **Аккаунт** в **Личном кабинете** вы можете обновить:
 
-.. figure:: ../../img/account/асс_personal.png
+.. figure:: ../../img/account/acc_personal.png
        :scale: 100 %
        :align: center
        :alt: Окно Персональные настройки
