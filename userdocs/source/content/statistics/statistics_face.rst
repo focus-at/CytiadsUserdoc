@@ -118,5 +118,5 @@
   
 .. hint:: Если выключить **Автообновление** вы будете меньше ждать конечный отчет.
 
-.. |autoupdate_button_off| image:: ../../img/start/autoupdate_button_off.png
-.. |autoupdate_button_update| image:: ../../img/start/autoupdate_button_update.png
+.. |autoupdate_button_off| image:: ../../img/statistics/autoupdate_button_off.png
+.. |autoupdate_button_update| image:: ../../img/statistics/autoupdate_button_update.png
