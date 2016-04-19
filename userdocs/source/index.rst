@@ -31,11 +31,10 @@
    :maxdepth: 3
    :caption: Начало работы
 
+   content/start/quick_start_guide.rst
    content/start/start_common.rst 
    content/start/interface_overview.rst 
-   content/start/quick_start_guide.rst 
-
-
+   
 .. toctree::
    :maxdepth: 2
    :caption: Аккаунт и счета
