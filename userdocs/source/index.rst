@@ -50,6 +50,7 @@
    content/offers/offers_interface.rst
    content/instruments/instruments_face.rst
    content/statistics/statistics_face.rst
+   content/statistics/different_reports.rst
 
 .. toctree::
    :maxdepth: 2
