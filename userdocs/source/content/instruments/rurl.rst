@@ -10,7 +10,7 @@
 Страница r-URL
 ==============
 
-.. figure:: ../../img/instruments/R_URL_Main.png
+.. figure:: ../../img/instruments/rurl/R_URL_Main.png
        :scale: 100 %
        :align: center
        :alt: страница R-URL
@@ -30,7 +30,7 @@
 
 #. В появившейся страничке создания необходимо заполнить все поля со звездочкой. 
 
-.. figure:: ../../img/instruments/R_URL_New.png
+.. figure:: ../../img/instruments/rurl/R_URL_New.png
        :scale: 100 %
        :align: center
        :alt: страница нового R-URL
@@ -41,7 +41,7 @@
 Редактирование
 --------------
 
-.. figure:: ../../img/instruments/R_URL_Edit.png
+.. figure:: ../../img/instruments/rurl/R_URL_Edit.png
        :scale: 100 %
        :align: center
        :alt: страница редактирования R-URL
@@ -53,7 +53,7 @@
 Удаление
 --------
 
-.. figure:: ../../img/instruments/R_URL_Delete.png
+.. figure:: ../../img/instruments/rurl/R_URL_Delete.png
        :scale: 100 %
        :align: center
        :alt: страница удаления R-URL
@@ -63,7 +63,7 @@
 Установка r-URL офферу
 ----------------------
 
-.. figure:: ../../img/instruments/R_URL_Set.png
+.. figure:: ../../img/instruments/rurl/R_URL_Set.png
        :scale: 100 %
        :align: center
        :alt: установка нового R-URL
@@ -71,3 +71,5 @@
 Для того чтобы установить офферу r-URL нужно перейти в раздел **Офферы | Веб-офферы** или **Офферы | Мобильные офферы** и нажать на символ установки r_URL у оффера.
 
 Если кнопка |URL_button| установки r-URL неактивна , значит у вас нет доступа к данному офферу.
+
+.. |URL_button| image:: ../../img/instruments/rurl/R_URL_Button.png
