@@ -57,8 +57,9 @@
    :maxdepth: 2
    :caption: Инструменты
    
-   content/instruments/instruments_face.rst
+   content/instruments//getlink.rst
    content/instruments/rurl.rst
+   content/instruments/ConversionPostback.rst
    
 .. toctree::
    :maxdepth: 2
