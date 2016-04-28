@@ -50,10 +50,16 @@
    content/offers/offers_face.rst
    content/offers/conversion.rst
    content/offers/offers_interface.rst
-   content/instruments/instruments_face.rst
    content/statistics/statistics_face.rst
    content/statistics/different_reports.rst
 
+.. toctree::
+   :maxdepth: 2
+   :caption: Инструменты
+   
+   content/instruments/instruments_face.rst
+   content/instruments/rurl.rst
+   
 .. toctree::
    :maxdepth: 2
    :caption: Дополнительная информация
