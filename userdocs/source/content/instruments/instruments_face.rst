@@ -328,8 +328,5 @@ Cоздать новый Conversion Postback
 
 .. code-block:: php
        
-       http://postback.test.ru/ru/postback/?offer_id=3135&offer_name=ClothesTest_Dress&wp_id=51935&wp_name=test&order_total
-       =15000&action_type=CPA&target_id=89752&target_name=Оплаченный заказ&payout_id=3424973352&payout=942&payout_currency=
-       RUR&data=test_xid_1234567890&click_time=1461595009&event_time=1461595947&conversion_time=1461596078&ip=212.233.125.9
-       8&country=RU&user_device=stationary&cpl_id=1555693533&open_commission=1500&order_amount=10000&status=approved&offer=ClothesTest
+       http://postback.test.ru/ru/postback/?offer_id=3135&offer_name=ClothesTest_Dress&wp_id=51935&wp_name=test&order_total=15000&action_type=CPA&target_id=89752&target_name=Оплаченный заказ&payout_id=3424973352&payout=942&payout_currency=RUR&data=test_xid_1234567890&click_time=1461595009&event_time=1461595947&conversion_time=1461596078&ip=212.233.125.98&country=RU&user_device=stationary&cpl_id=1555693533&open_commission=1500&order_amount=10000&status=approved&offer=ClothesTest
 
