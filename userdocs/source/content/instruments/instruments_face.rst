@@ -312,7 +312,7 @@ Cоздать новый Conversion Postback
 
 1. У вебмастера Сережи есть жгучее желание узнавать, что и когда происходит с конверсиями по одному из офферов — ClothesTestOffer  от магазина одежды ClothesTestShop.ru. Для этого Сережа настроил в системе GET Conversion Postback с названием **test**:
 
-.. code-block::
+.. code-block:: php
 
        http://postback.test.ru/ru/postback?offer_id={offer_id}&offer_name={offer_name}&wp_id={wp_id}&wp_name={wp_name}&order_total={order_total}&action_type={action_type}&target_id={target_id}&target_name={target_name}&payout_id={payout_id}&payout={payout}&payout_currency={payout_currency}&click_id={click_id}&click_time={click_time}&event_time={event_time}&conversion_time={conversion_time}&ip={ip}&country={country}&user_device={user_device}&cpl_id={cpl_id}&open_commission={open_commission}&order_amount={order_amount}&status={status}&offer=ClothesTest
 
@@ -320,13 +320,13 @@ Cоздать новый Conversion Postback
 
 3. Девушка Надя на сайте Сережи увидела классную рекламу и перешла по партнерской ссылке на сайт ClothesTestShop.ru. Так она положила в свою корзину 5 платьев на сумму 15000RUR и оформила заказ – вебмастеру пришел CPL Conversion Postback вот такого вида:
 
-.. code-block::
+.. code-block:: php
 
        http://postback.test.ru/ru/postback/?offer_id=3135&offer_name=ClothesTestOffer&wp_id=51935&wp_name=test&order_total=15000&action_type=CPL&target_id=89153&target_name=NewTarget&payout_id=&payout=&payout_currency=&click_id=test_xid_1234567890&click_time=1461595009&event_time=1461595182&conversion_time=&ip=212.233.125.98&country=RU&user_device=stationary&cpl_id=1555693533&open_commission=1500&order_amount=&status=open&offer=ClothesTest
 
 4. Однако, когда Наде привезли платья, в 2 из них она не влезла и в итоге оплатила только 3 штуки на 10000RUR – вебмастеру пришел CPS Conversion Postback вот такого вида:
 
-.. code-block::
+.. code-block:: php
        
        http://postback.test.ru/ru/postback/?offer_id=3135&offer_name=ClothesTest_Dress&wp_id=51935&wp_name=test&order_total
        =15000&action_type=CPA&target_id=89752&target_name=Оплаченный заказ&payout_id=3424973352&payout=942&payout_currency=
