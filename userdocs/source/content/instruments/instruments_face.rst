@@ -300,20 +300,20 @@ Cоздать новый Conversion Postback
 
 .. code-block:: javascript
 
-<?php
-//получение переменных отправленных в запросе
-$offer_id = $_REQUEST['offer_id'];
-$offer_name = $_REQUEST['offer_name'];
-$subaccount = $_REQUEST['subaccount'];
-$action_type = $_REQUEST['action_type'];
-$payout = $_REQUEST['payout'];
-//формируем строку лога
-$line = 'Оффер: ' . $offer_name . '; Субаккаунт: ' . $subaccount . '; Тип действия: ' . $action_type . '; Сумма выплаты: ' . $payout . "\n";
-//открываем файл для логгирования запросов
-if ($handle = fopen($_SERVER['DOCUMENT_ROOT'] . '/conversion_postback.log', 'a')) {
-    fwrite($handle, '[' . date('Y-m-d H:i:s') . ']:' . $line . "\n");
-    fclose($handle);
-}
-?>
+       <?php
+       //получение переменных отправленных в запросе
+       $offer_id = $_REQUEST['offer_id'];
+       $offer_name = $_REQUEST['offer_name'];
+       $subaccount = $_REQUEST['subaccount'];
+       $action_type = $_REQUEST['action_type'];
+       $payout = $_REQUEST['payout'];
+       //формируем строку лога
+       $line = 'Оффер: ' . $offer_name . '; Субаккаунт: ' . $subaccount . '; Тип действия: ' . $action_type . '; Сумма выплаты: ' . $payout . "\n";
+       //открываем файл для логгирования запросов
+       if ($handle = fopen($_SERVER['DOCUMENT_ROOT'] . '/conversion_postback.log', 'a')) {
+              fwrite($handle, '[' . date('Y-m-d H:i:s') . ']:' . $line . "\n");
+               fclose($handle);
+       }
+       ?>
 
 .. attention:: Если у переменной отсутствует значение, то в ответ никакого значения передаваться не будет, например, order_amount не задан, т.к. это CPL: order_amount=&status=open
