@@ -3,7 +3,7 @@
 #################
 
 .. seealso::
-       Предыдущий раздел - ref:`Что такое офферы<what-is-offer-label>`. 
+       Предыдущий раздел - ref:`Что такое офферы <what-is-offer-label>`. 
        
        Перейти в раздел `Офферы <http://cityads.com/webmaster/offers/web/>`_.
 
