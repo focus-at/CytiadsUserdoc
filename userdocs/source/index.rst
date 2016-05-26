@@ -60,7 +60,8 @@
    content/instruments//getlink.rst
    content/instruments/rurl.rst
    content/instruments/ConversionPostback.rst
-   
+   content/instruments/firanofinance.rst
+ 
 .. toctree::
    :maxdepth: 2
    :caption: Дополнительная информация
