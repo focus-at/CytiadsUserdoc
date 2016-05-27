@@ -1,0 +1,14 @@
+    {% if READTHEDOCS %}
+    <label>
+      {{ current_version }}
+      <div class="dropdown__button"></div>
+      <input class="dropdown__checkbox" type="checkbox">
+      <div class="dropdown__menu">
+          {{translations}}
+          {% for slug, url in versions %}
+            <a href="{{ url }}">{{ slug }}</a>
+          {% endfor %}
+      </div>
+    </label>
+    <!-- <a href="//{{ PRODUCTION_DOMAIN }}/projects/{{ slug }}/?fromdocs={{ slug }}">Project Home</a> -->
+    {% endif %}

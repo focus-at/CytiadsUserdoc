@@ -1,0 +1,162 @@
+{# TEMPLATE VAR SETTINGS #}
+{%- set url_root = pathto('', 1) %}
+{%- if url_root == '#' %}{% set url_root = '' %}{% endif %}
+{%- if not embedded and docstitle %}
+  {%- set titlesuffix = " &mdash; "|safe + docstitle|e %}
+{%- else %}
+  {%- set titlesuffix = "" %}
+{%- endif %}
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  {{ metatags }}
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  {% block htmltitle %}
+  <title>{{ title|striptags|e }}{{ titlesuffix }}</title>
+  {% endblock %}
+
+  {# FAVICON #}
+  {% if favicon %}
+    <link rel="shortcut icon" href="{{ pathto('_static/' + favicon, 1) }}"/>
+  {% endif %}
+
+  {# OPENSEARCH #}
+  {% if not embedded %}
+    {% if use_opensearch %}
+      <link rel="search" type="application/opensearchdescription+xml" title="{% trans docstitle=docstitle|e %}Search within {{ docstitle }}{% endtrans %}" href="{{ pathto('_static/opensearch.xml', 1) }}"/>
+    {% endif %}
+
+  {% endif %}
+  {%- block linktags %}
+    {%- if hasdoc('about') %}
+        <link rel="author" title="{{ _('About these documents') }}"
+              href="{{ pathto('about') }}"/>
+    {%- endif %}
+    {%- if hasdoc('genindex') %}
+        <link rel="index" title="{{ _('Index') }}"
+              href="{{ pathto('genindex') }}"/>
+    {%- endif %}
+    {%- if hasdoc('search') %}
+        <link rel="search" title="{{ _('Search') }}" href="{{ pathto('search') }}"/>
+    {%- endif %}
+    {%- if hasdoc('copyright') %}
+        <link rel="copyright" title="{{ _('Copyright') }}" href="{{ pathto('copyright') }}"/>
+    {%- endif %}
+    <link rel="top" title="{{ docstitle|e }}" href="{{ pathto('index') }}"/>
+    {%- if parents %}
+        <link rel="up" title="{{ parents[-1].title|striptags|e }}" href="{{ parents[-1].link|e }}"/>
+    {%- endif %}
+    {%- if next %}
+        <link rel="next" title="{{ next.title|striptags|e }}" href="{{ next.link|e }}"/>
+    {%- endif %}
+    {%- if prev %}
+        <link rel="prev" title="{{ prev.title|striptags|e }}" href="{{ prev.link|e }}"/>
+    {%- endif %}
+  {%- endblock %}
+  {%- block extrahead %} {% endblock %}
+
+	<link rel="stylesheet" href="{{ pathto('_static/css/main.css', 1) }}" type="text/css" />
+	<!--<link rel="stylesheet" href="{{ pathto('_static/css/theme.css', 1) }}" type="text/css" />-->
+
+	{# Keep modernizr in head - http://modernizr.com/docs/#installing #}
+	<script src="{{ pathto('_static/js/modernizr.min.js', 1) }}"></script>
+	<script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'{{ url_root }}',
+            VERSION:'{{ release|e }}',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'{{ '' if no_search_suffix else file_suffix }}',
+            HAS_SOURCE:  {{ has_source|lower }}
+        };
+    </script>
+	{%- for scriptfile in script_files %}
+      <script type="text/javascript" src="{{ pathto(scriptfile, 1) }}"></script>
+    {%- endfor %}
+</head>
+
+<body role="document">
+
+  <div class="header">
+  <a href="{{ pathto(master_doc) }}"><img class="header__logo" src="https://cityads.com/main/wp-content/themes/swell-lite/images/lask/cityads-dark.png" alt=""></a>
+    <div class="header__title">{{ project }}</div>
+    <div class="header__search">
+      <!-- <input class="header__search__input" type="text" placeholder="Search"> -->
+      {% include "searchbox.html" %}
+    </div>
+    <div class="header__tools">{% include "versions.html" %}</div>
+  </div>
+  <div class="menu wy-menu-vertical">
+  	<div class="wy-side-scroll">
+	    {% block menu %}
+	      {% set toctree = toctree(maxdepth=4, collapse=theme_collapse_navigation, includehidden=True) %}
+	      {% if toctree %}
+	        {{ toctree }}
+	      {% else %}>
+	        <div class="local-toc">{{ toc }}</div>
+	      {% endif %}
+	    {% endblock %}
+    	</div>
+  </div>
+  <div class="content">
+  	<div class="rst-content">
+	    {% include "breadcrumbs.html" %}
+	    {% block body %}{% endblock %}
+	    {% include "footer.html" %}
+	</div>
+    <!--
+    <div class="navigation-path">
+      <a href="" class="navigation-path__item">docs</a> | <span class="navigation-path__item">Добро пожаловать в документацию вебмастера</span>
+    </div>
+    <h1>Инструкция для быстрого старта</h1>
+  -->
+  </div>
+  {% block footer %}{% endblock %}
+  <script type="text/javascript">
+      jQuery(function () {
+      	var content = document.querySelector('.content');
+      	var rstContent = content.querySelector('.rst-content');
+      	var elements;
+
+      	function reposition(){
+      		if(!elements){
+      			//.figure, .wy-table-responsive
+      			elements = Array.prototype.slice.call(content.querySelectorAll('.sidebar, .admonition'));
+      		}
+      		elements.forEach(function(item){
+			var offset = -(content.offsetWidth - rstContent.offsetWidth ) / 2;
+			if(~item.className.indexOf('figure') || ~item.className.indexOf('wy-table-responsive')){
+				item.style.cssText = 'margin-left: ' + offset + 'px; margin-right: ' + offset + 'px';
+			}else{
+				item.style.marginRight = offset + 'px';	
+			}
+		});
+      	}
+      	
+        function hashChange(){
+      		var hash = document.location.hash;
+      		var $root = $('html, body');
+      		$('.menu .current a').each(function(index, item){
+      		    var href = item.getAttribute('href');
+      		    var scrollTo = document.getElementById(hash.replace('#', ''));
+      		    $(item).toggleClass('current', href == hash);
+      		    if(scrollTo){
+      		    	setTimeout(function(){
+      		    		$root.scrollTop(scrollTo.offsetTop - 100);
+      		    	});
+      		    }
+      		});
+      	}
+      	
+        window.addEventListener("hashchange", hashChange);
+        window.addEventListener('resize', reposition);
+        
+        hashChange();
+        setTimeout(reposition);
+        SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+</body>
+</html>
