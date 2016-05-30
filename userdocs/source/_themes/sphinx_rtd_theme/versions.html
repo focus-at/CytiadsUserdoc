@@ -4,7 +4,7 @@
       <div class="dropdown__button"></div>
       <input class="dropdown__checkbox" type="checkbox">
       <div class="dropdown__menu">
-          {{translations}}
+          {{ main_project.language }}
           {% for slug, url in versions %}
             <a href="{{ url }}">{{ slug }}</a>
           {% endfor %}
