@@ -32,9 +32,9 @@
    :caption: Начало работы
 
    content/start/quick_start_guide.rst
-   content/start/start_common.rst 
-   content/start/interface_overview.rst
+   content/start/start_common.rst
    content/offers/conversion.rst
+   content/start/interface_overview.rst
    
 .. toctree::
    :maxdepth: 2
