@@ -33,7 +33,8 @@
 
    content/start/quick_start_guide.rst
    content/start/start_common.rst 
-   content/start/interface_overview.rst 
+   content/start/interface_overview.rst
+   content/offers/conversion.rst
    
 .. toctree::
    :maxdepth: 2
@@ -48,7 +49,6 @@
    :caption: Работа с офферами
 
    content/offers/offers_face.rst
-   content/offers/conversion.rst
    content/offers/offers_interface.rst
 
 
