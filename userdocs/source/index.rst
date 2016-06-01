@@ -43,7 +43,6 @@
    content/account/account_face.rst
    content/account/finance.rst
    content/account/agent_cabinet.rst
-   content/account/office_overview.rst
    
 .. toctree::
    :maxdepth: 2
