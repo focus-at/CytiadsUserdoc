@@ -85,7 +85,7 @@
     * Своего статуса
     * Адреса электронной почты
 
-.. figure:: ../../img/account/acc_status.png
+.. figure:: ../../img/account/acc_personal.png
  :scale: 100 %
  :align: center
  :alt: настройки аккаунта
