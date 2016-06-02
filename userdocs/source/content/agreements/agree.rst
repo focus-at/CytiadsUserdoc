@@ -4,5 +4,5 @@
 Соглашения
 ==========
 
-Политика в отношении обработки персональных данных в :ref:`PDF <https://cityads.com/main/ru/company/personal/>`_.
+Политика в отношении обработки персональных данных в `PDF <https://cityads.com/main/ru/company/personal/>`_.
 
