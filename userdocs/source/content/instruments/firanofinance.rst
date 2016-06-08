@@ -96,7 +96,7 @@
 Запрос
 ======
 
-Данные, которые содержаться в заявке вебмастер передает по ``URL - https://finance.cityads.com/api/rest/v2/applications.json``
+Данные, которые содержаться в заявке, вебмастер передает по ``URL - https://finance.cityads.com/api/rest/v2/applications.json``
 
 Обязательные поля
 -----------------
