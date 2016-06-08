@@ -62,6 +62,7 @@
    :maxdepth: 2
    :caption: Инструменты
    
+   content/instruments/banners.rst
    content/instruments//getlink.rst
    content/instruments/rurl.rst
    content/instruments/ConversionPostback.rst
