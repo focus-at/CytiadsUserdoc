@@ -107,6 +107,8 @@ a code::
 
 просто переменная 2 |test-2|
 
+Ne просто переменная ``1 |test-1| ``
+
 .. |filter_button_apply| image:: ../../img/start/filter_apply.png
 .. |filter_button_remove| image:: ../../img/start/filter_remove.png
 .. |filter_button_save| image:: ../../img/start/filter_save.png
