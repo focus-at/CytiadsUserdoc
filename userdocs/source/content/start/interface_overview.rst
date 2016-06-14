@@ -103,7 +103,7 @@ a code::
 
        |test-1|
 
-|test-1|
+просто переменная |test-1|
 
 .. |filter_button_apply| image:: ../../img/start/filter_apply.png
 .. |filter_button_remove| image:: ../../img/start/filter_remove.png
