@@ -263,6 +263,7 @@ CVS TABLE -
    :widths: 300, 300
 
    1000, "20%"
+   |test-1|, |test-2|
 
 
 
