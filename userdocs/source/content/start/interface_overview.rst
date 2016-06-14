@@ -102,6 +102,6 @@
 .. |filter_button_save| image:: ../../img/start/filter_save.png
 .. |table_gear| image:: ../../img/start/table_gear.png
 
-.. |test-1| replace:: blablabla
-                            bla bla
-                            dfgsgf = tywrth
+.. |test-1| replace:: literal_block:blablabla
+                                          bla bla
+                                          dfgsgf = tywrth
