@@ -93,7 +93,10 @@
        
        #. Вы можете выкинуть из таблицы те столбики, которые для вас бесполезны. 
 
-моя переменная |test-1|
+моя переменная
+code-block::
+
+       |test-1|
 
 .. |filter_button_apply| image:: ../../img/start/filter_apply.png
 .. |filter_button_remove| image:: ../../img/start/filter_remove.png
@@ -101,8 +104,6 @@
 .. |table_gear| image:: ../../img/start/table_gear.png
 
 .. |test-1| replace::
-              code-block:: 
-
                      blablabla
                             bla bla
                             dfgsgf = tywrth
