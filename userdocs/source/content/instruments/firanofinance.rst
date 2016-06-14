@@ -262,18 +262,13 @@ CVS TABLE -
    :header: "Ответ", "Расшифровка"
    :widths: 300, 300
 
-     1000, "20%"
+     "{ |br| “application”:{ |br| “id”:4524772 |br| } |br| }", "20%"
      |test-1|, |test-1|
      1000, "20%"
      |test-1|, tes2 tes2tes2 |br| tes2tes2 tes2tes2 |br| tes2 tes2``
      1000, "20%"
      |test-1|, |test-1|
-
-
-.. |response-ok| replace:: eeee
-
-.. |test-1| replace:: .. class:: spec blablabla bla bla dfgsgf = tywrth
-
+     
 .. |br| raw:: html
 
    <br />
