@@ -110,6 +110,8 @@ just::
 
 Ne просто переменная ``1 |test-1| ``
 
+tes2 tes2tes2 | tes2tes2 ``tes2tes2`` | tes2 tes2
+
 .. |filter_button_apply| image:: ../../img/start/filter_apply.png
 .. |filter_button_remove| image:: ../../img/start/filter_remove.png
 .. |filter_button_save| image:: ../../img/start/filter_save.png
