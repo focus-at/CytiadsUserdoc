@@ -256,7 +256,15 @@ Ne просто переменная ``1 |test-1| ``
 | tes2tes2 ``tes2tes2`` 
 |     tes2 tes2
 
-tes2 tes2tes2 tes2tes2 ``tes2tes2`` tes2 tes2
+CVS TABLE - 
+
+.. csv-table::
+   :header: "Ответ", "Расшифровка"
+   :widths: 10, 10
+
+   1000, "20%"
+
+
 
 .. |test-1| replace:: blablabla
                             bla bla
