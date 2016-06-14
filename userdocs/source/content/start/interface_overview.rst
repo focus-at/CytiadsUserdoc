@@ -103,7 +103,9 @@ a code::
        моя переменная 
        |test-1|
 
-просто переменная |test-1|
+просто переменная 1 |test-1|
+
+просто переменная 2 |test-2|
 
 .. |filter_button_apply| image:: ../../img/start/filter_apply.png
 .. |filter_button_remove| image:: ../../img/start/filter_remove.png
