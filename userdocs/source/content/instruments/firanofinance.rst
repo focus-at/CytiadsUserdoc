@@ -260,7 +260,7 @@ CVS TABLE -
 
 .. csv-table::
    :header: "Ответ", "Расшифровка"
-   :widths: 50%, 10
+   :widths: 300, 300
 
    1000, "20%"
 
