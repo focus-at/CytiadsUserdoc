@@ -246,7 +246,9 @@ just::
 
 просто переменная 1 |test-1|
 
-просто переменная 2 |test-2|
+просто переменная 2 |test-2| 
+
+|test-190|
 
 Ne просто переменная ``1 |test-1| ``
 
@@ -265,6 +267,8 @@ CVS TABLE -
 
 
 .. |test-1| replace:: blablabla bla bla dfgsgf = tywrth
+
+.. |test-190| replace:: blablabla bla bla dfgsgf = tywrth
 
 .. |test-2| replace:: tes2 tes2tes2 |br| tes2tes2 ``tes2tes2``|br| tes2 tes2
 
