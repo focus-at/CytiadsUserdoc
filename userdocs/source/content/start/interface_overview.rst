@@ -99,7 +99,7 @@ a code::
               bla bla
               dfgsgf = tywrth
 
-:: 
+just:: 
 
        моя переменная 
        |test-1|
