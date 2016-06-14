@@ -268,7 +268,7 @@ CVS TABLE -
 
 .. |test-1| replace:: blablabla bla bla dfgsgf = tywrth
 
-.. |test-190| replace:: blablabla bla bla dfgsgf = tywrth
+.. |test-190| replace:: blablabla bla |br| bla dfgsgf = tywrth
 
 .. |test-2| replace:: tes2 tes2tes2 |br| tes2tes2 ``tes2tes2``|br| tes2 tes2
 
