@@ -99,8 +99,8 @@ a code::
               bla bla
               dfgsgf = tywrth
 
-моя переменная ::
-
+:: 
+       моя переменная 
        |test-1|
 
 просто переменная |test-1|
@@ -113,3 +113,5 @@ a code::
 .. |test-1| replace:: blablabla
                                           bla bla
                                           dfgsgf = tywrth
+                                          
+.. |test-2| replace:: tes2 tes2tes2 tes2tes2 ``tes2tes2`` tes2 tes2
