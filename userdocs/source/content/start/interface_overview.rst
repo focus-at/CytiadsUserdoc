@@ -95,8 +95,6 @@
 
 моя переменная
 
-code-block::
-
        |test-1|
 
 .. |filter_button_apply| image:: ../../img/start/filter_apply.png
@@ -104,7 +102,7 @@ code-block::
 .. |filter_button_save| image:: ../../img/start/filter_save.png
 .. |table_gear| image:: ../../img/start/table_gear.png
 
-.. |test-1| replace::
+.. |test-1| replace:: code-block::
                      blablabla
                             bla bla
                             dfgsgf = tywrth
