@@ -93,9 +93,11 @@
        
        #. Вы можете выкинуть из таблицы те столбики, которые для вас бесполезны. 
 
-.. literal_block:: blablabla
-                                          bla bla
-                                          dfgsgf = tywrth
+.. literal_block::
+       
+       blablabla
+              bla bla
+              dfgsgf = tywrth
 
 моя переменная :
 
