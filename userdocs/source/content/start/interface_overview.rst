@@ -110,7 +110,7 @@ just::
 
 Ne просто переменная ``1 |test-1| ``
 
-|tes2 tes2tes2 
+| tes2 tes2tes2 
 | tes2tes2 ``tes2tes2`` 
 |     tes2 tes2
 
