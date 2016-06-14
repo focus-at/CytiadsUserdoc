@@ -99,7 +99,7 @@ a code::
               bla bla
               dfgsgf = tywrth
 
-моя переменная :
+моя переменная ::
 
        |test-1|
 
@@ -108,6 +108,6 @@ a code::
 .. |filter_button_save| image:: ../../img/start/filter_save.png
 .. |table_gear| image:: ../../img/start/table_gear.png
 
-.. |test-1| replace:: literal_block:blablabla
+.. |test-1| replace:: blablabla
                                           bla bla
                                           dfgsgf = tywrth
