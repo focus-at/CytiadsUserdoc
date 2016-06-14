@@ -93,7 +93,7 @@
        
        #. Вы можете выкинуть из таблицы те столбики, которые для вас бесполезны. 
 
-.. literal_block::
+a literal_block::
        
        blablabla
               bla bla
