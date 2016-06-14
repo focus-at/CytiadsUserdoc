@@ -123,4 +123,6 @@ Ne просто переменная ``1 |test-1| ``
                             bla bla
                             dfgsgf = tywrth
                                           
-.. |test-2| replace:: tes2 tes2tes2 | tes2tes2 ``tes2tes2`` | tes2 tes2
+.. |test-2| replace:: | tes2 tes2tes2
+                      | tes2tes2 ``tes2tes2``
+                      | tes2 tes2
