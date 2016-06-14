@@ -270,8 +270,6 @@ CVS TABLE -
 
 .. |test-2| replace:: tes2 tes2tes2 |br| tes2tes2 ``tes2tes2``|br| tes2 tes2
 
-.. |answer-ok| 
-
 .. |br| raw:: html
 
    <br />
