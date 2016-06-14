@@ -100,6 +100,7 @@ a code::
               dfgsgf = tywrth
 
 :: 
+
        моя переменная 
        |test-1|
 
@@ -115,7 +116,7 @@ Ne просто переменная ``1 |test-1| ``
 .. |table_gear| image:: ../../img/start/table_gear.png
 
 .. |test-1| replace:: blablabla
-                                          bla bla
-                                          dfgsgf = tywrth
+                            bla bla
+                            dfgsgf = tywrth
                                           
 .. |test-2| replace:: tes2 tes2tes2 tes2tes2 ``tes2tes2`` tes2 tes2
