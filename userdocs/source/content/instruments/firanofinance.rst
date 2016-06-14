@@ -271,11 +271,7 @@ CVS TABLE -
                             bla bla
                             dfgsgf = tywrth
                                           
-.. |test-2| replace:: 
-
-   | tes2 tes2tes2
-   | tes2tes2 ``tes2tes2``
-   | tes2 tes2
+.. |test-2| replace:: tes2 tes2tes2 |br| tes2tes2 ``tes2tes2``|br| tes2 tes2
 
 .. |answer-ok| 
 
