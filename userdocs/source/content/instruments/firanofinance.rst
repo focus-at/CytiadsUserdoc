@@ -256,10 +256,20 @@ Ne просто переменная ``1 |test-1| ``
 | tes2tes2 ``tes2tes2`` 
 |     tes2 tes2
 
+tes2 tes2tes2 tes2tes2 ``tes2tes2`` tes2 tes2
+
 .. |test-1| replace:: blablabla
                             bla bla
                             dfgsgf = tywrth
                                           
-.. |test-2| replace:: | tes2 tes2tes2
-                      | tes2tes2 ``tes2tes2``
-                      | tes2 tes2
+.. |test-2| replace:: 
+
+   | tes2 tes2tes2
+   | tes2tes2 ``tes2tes2``
+   | tes2 tes2
+
+.. |answer-ok| 
+
+.. |br| raw:: html
+
+   <br />
