@@ -272,8 +272,7 @@ CVS TABLE -
 
 .. |response-ok| replace:: eeee
 
-.. |test-1| replace:: .. class:: spec
-                              blablabla bla bla dfgsgf = tywrth
+.. |test-1| replace:: .. class:: spec blablabla bla bla dfgsgf = tywrth
 
 .. |br| raw:: html
 
