@@ -102,7 +102,7 @@
    .. figure:: ../../img/instruments/firano/firano_id_token.png
       :scale: 100 %
       :align: center
-       :alt: код для вставки Firano
+      :alt: код для вставки Firano
    
    #. в параметре ``wm_id``, будет персональный номер.
    #. в параметре ``token``, будет ключ аутентификации.
