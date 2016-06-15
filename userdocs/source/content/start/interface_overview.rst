@@ -105,5 +105,7 @@
    the note but the next paragraph.
 
    .. class:: special
+   
+      some text
 
 This is a paragraph with class value "special".
