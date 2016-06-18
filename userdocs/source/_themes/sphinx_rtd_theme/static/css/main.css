@@ -309,6 +309,7 @@ th.head {
 	float: right;
 	width: 29%;
 	clear: both;
+	margin-left: 32px;
 	background: #fff !important;
 	color: #8a8a8a;
 }
