@@ -45,7 +45,7 @@ a {
     color: #26a69a;
 }
 .header{
-	background: #fff;
+	background: #4db6ac;
 	box-shadow: 0 1px 6px #cbcbcb;
 	padding: 28px 16px;
 	position: relative;
@@ -68,7 +68,7 @@ a {
 }
 
 .header__search{
-    max-width: 720px;
+    max-width: 992px;
     margin: 0 auto;
     position: absolute;
     left: 190px;
@@ -94,8 +94,15 @@ a {
 	background: 0;
 	font: 16px/1 DINWebPro, arial, sans-serif;
 	outline: 0;
+  color: rgba(255,255,255,.54) !important;
 }
+.header__search__input::-webkit-input-placeholder {color: rgba(255,255,255,.54);}
+.header__search__input::-moz-placeholder          {color: rgba(255,255,255,.54);}/* Firefox 19+ */
+.header__search__input:-moz-placeholder           {color: rgba(255,255,255,.54);}/* Firefox 18- */
+.header__search__input:-ms-input-placeholder      {color: rgba(255,255,255,.54);}
+
 .menu{
+  background: #fafafa;
 width: 251px;
     font-size: 14px;
     line-height: 1.2;
@@ -141,18 +148,12 @@ width: 251px;
 	background: #e6e6e6;
 }
 .menu a.current{
-	background: #dedede;
+	background: #cfd8dc;
 	color: #000;
 	font-weight: 500;
 }
 .menu li li a{
 	padding: 4px 32px;
-}
-.toctree-l3 a{
-	padding-left: 48px !important;
-}
-.toctree-l4 a {
-    padding-left: 64px !important;
 }
 .toctree-expand{
 	position: absolute;
@@ -296,8 +297,10 @@ th.head {
     margin-left: 32px !important;
 }
 .rst-content{
-	max-width: 720px;
+	max-width: 992px;
 	margin: 0 auto;
+  background: #fff;
+  padding: 32px;
 }
 .figure{
 	clear: both;
