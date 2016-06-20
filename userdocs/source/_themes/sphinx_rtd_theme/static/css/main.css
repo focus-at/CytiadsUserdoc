@@ -119,7 +119,7 @@ a {
 .header{
 	background: #4db6ac;
 	box-shadow: 0 1px 6px #cbcbcb;
-	padding: 28px 16px;
+	padding: 28px 16px 27px;
 	position: relative;
 	margin-bottom: 16px;
 	position: fixed;
@@ -148,7 +148,7 @@ a {
     position: absolute;
     left: 190px;
     right: 80px;
-    top: 24px;
+    top: 21px;
     bottom: 24px;
     padding-top: 7px;
     border-bottom: 1px solid #e0e0e0;
