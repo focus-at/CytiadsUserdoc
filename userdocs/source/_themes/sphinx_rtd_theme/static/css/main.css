@@ -62,6 +62,7 @@
   }
   .page__button > a{
   	font-size: 14px;
+  	font-family: Roboto;
   	text-transform: uppercase;
   	color: #009688;
   	text-decoration: none;
