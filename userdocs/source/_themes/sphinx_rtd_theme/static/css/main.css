@@ -52,6 +52,12 @@
   	font-weight: 900;
   	font-style: normal;
   }
+.std-term {
+    font: 12px/20px DINWebPro;
+    color: #26A69A;
+    text-decoration: none;
+    text-transform: uppercase;
+}
   .section{
   	font-family: Adelle;
   	font-size: 14px;
