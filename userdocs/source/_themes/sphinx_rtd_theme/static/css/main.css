@@ -55,6 +55,8 @@
   .section{
   	font-family: Adelle;
   	font-size: 14px;
+  	background: #fff;
+        padding: 32px;
   }
   .page__button{
   	float: right;
@@ -116,7 +118,6 @@ a {
 
 .header__search{
     max-width: 992px;
-    margin: 0 auto;
     position: absolute;
     left: 190px;
     right: 80px;
@@ -235,7 +236,7 @@ th.head {
     vertical-align: top;
 }
 .content{
-  margin: 98px 16px 0 16px;
+  margin: 98px 0 0 16px;
 }
 .content ol{
 	position: relative;
@@ -344,9 +345,6 @@ th.head {
 }
 .rst-content{
 	max-width: 992px;
-	margin: 0 auto;
-  background: #fff;
-  padding: 32px;
 }
 .figure{
 	clear: both;
