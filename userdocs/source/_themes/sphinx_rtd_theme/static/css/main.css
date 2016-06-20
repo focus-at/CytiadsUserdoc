@@ -6394,6 +6394,8 @@ a .rst-content code {
 .rst-content dl dt {
     color: #26A69A;
     text-transform: uppercase;
+    font-size: DINWebPro 12px/20px;
+    font-weight: 500;
 }
 
 .rst-content dl p,
