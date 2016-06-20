@@ -5,17 +5,9 @@
       <input class="dropdown__checkbox" type="checkbox">
       <div class="dropdown__menu">
           {{ current_language }}
-          test </br>
-          v: {{ current_version }}
-          {% for slug, url in versions %}
-            <a href="{{ url }}">{{ slug }}</a>
-          {% endfor %}
-          {% if translations %}
-            deldel
-          {% endif %}
+          {{lang}}
       </div>
     </label>
-   <a href="//{{ PRODUCTION_DOMAIN }}/projects/{{ slug }}/?fromdocs={{ slug }}">Project Home</a>
 {% endif %}
 <!--
 {% if READTHEDOCS %}
