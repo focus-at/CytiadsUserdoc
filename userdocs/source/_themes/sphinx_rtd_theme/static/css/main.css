@@ -56,6 +56,10 @@
   	font-family: Adelle;
   	font-size: 14px;
   }
+  .reference.internal{
+  	font-family: Adelle;
+  	color: #212121;
+  }
   .menuselection{
   	font: 15px/20px DINWebPro;
   	color: #8a8a8a;
