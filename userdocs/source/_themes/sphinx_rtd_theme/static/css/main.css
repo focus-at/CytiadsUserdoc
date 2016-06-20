@@ -128,7 +128,7 @@ a {
 	right: 0;
 	z-index: 2;
 }
-.header__logo-link{
+.header__logo__link{
 	display: inline-block;
 	margin-top: 5px;
 }
