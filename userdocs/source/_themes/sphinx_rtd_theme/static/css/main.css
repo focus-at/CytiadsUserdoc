@@ -410,7 +410,9 @@ span.navigation-path__item{
       float: right;
       position: relative;
       text-transform: uppercase;
-      color: #fff;
+    }
+    .header__tools label{
+    	color: #fff;
     }
     .dropdown__button{
       margin-top: -3px;
