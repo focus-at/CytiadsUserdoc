@@ -49,9 +49,21 @@
   	font-family: Adelle;
   	font-size: 14px;
   }
-  .rst-footer-buttons--top{
+  .page-buttons{
   	float: right;
   	width: 33%;
+  }
+  .page-buttons > a{
+  	font-size: 14px;
+  	text-transform: uppercase;
+  	color: #009688;
+  }
+  .page-buttons--top > a:hover{
+  	opacity: .26;
+  }
+  
+  .page-buttons--bottom > a:hover{
+  	background: #e0e0e0;
   }
 html, body{
 	padding: 0;
