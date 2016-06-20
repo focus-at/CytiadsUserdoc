@@ -56,6 +56,10 @@
   	font-family: Adelle;
   	font-size: 14px;
   }
+  .menuselection{
+  	font: 15px 20px DINWebPro;
+  	color: #8a8a8a;
+  }
   .rst-content > .section{
   	background: #fff;
         padding: 32px;
