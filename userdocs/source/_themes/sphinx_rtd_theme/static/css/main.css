@@ -58,11 +58,11 @@
   	text-transform: uppercase;
   	color: #009688;
   }
-  .page-button--top > a:hover{
+  .page__button--top > a:hover{
   	opacity: .26;
   }
   
-  .page-button--bottom > a:hover{
+  .page__button--bottom > a:hover{
   	background: #e0e0e0;
   }
 html, body{
