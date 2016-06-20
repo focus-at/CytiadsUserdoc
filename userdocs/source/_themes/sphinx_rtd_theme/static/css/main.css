@@ -305,11 +305,11 @@ th.head {
 .content ol[start="1"]{
 	counter-reset: list 0;
 }
-.content ol li {
+.content ol > li {
 	list-style: none !important;
 	margin-left: 32px !important;
 }
-.content ol li:before {
+.content ol > li:before {
     counter-increment: list;
     content: counter(list, decimal-leading-zero);
     color: #26a69a;
@@ -318,13 +318,13 @@ th.head {
     left: 0;
 }
 
-.content ol li > ol{
+.content ol > li > ol{
 	counter-reset: list2;
 }
-.content ol li > ol li{
+.content ol > li > ol > li{
 	margin-left: 56px !important;
 }
-.content ol li > ol li:before{
+.content ol > li > ol > li:before{
 	counter-increment: list2;
 	content: counter(list, decimal-leading-zero) '.' counter(list2, decimal-leading-zero);
 	color: #8a8a8a;
