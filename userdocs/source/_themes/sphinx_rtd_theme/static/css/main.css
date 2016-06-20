@@ -58,6 +58,7 @@
   }
   .page__button{
   	float: right;
+  	text-align: right;
   	width: 33%;
   }
   .page__button > a{
