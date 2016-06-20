@@ -4925,7 +4925,7 @@ input[type="checkbox"][disabled] {
 }
 .wy-table-responsive th,
 .wy-table-responsive td{
-	padding: 16px;
+	padding: 8px;
 }
 .wy-text-left {
     text-align: left
