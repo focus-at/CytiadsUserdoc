@@ -5916,7 +5916,7 @@ footer span.commit .rst-content tt,
 }
 
 #search-results .context {
-    font-size: 90%
+    font: 14px/20px Adelle;
 }
 
 @media screen and (max-width: 768px) {
@@ -6309,11 +6309,12 @@ footer span.commit .rst-content tt,
     font-size: 100%
 }
 
-.rst-content .highlighted {
-    background: #F1C40F;
-    display: inline-block;
-    font-weight: bold;
-    padding: 0 6px
+.rst-content .highlighted {     
+	background: #80cbc4;     
+	display: inline-block;     
+	font-weight: 500;     
+	padding: 3px 6px;    
+	margin-top: -2px; 
 }
 
 .rst-content .footnote-reference,
