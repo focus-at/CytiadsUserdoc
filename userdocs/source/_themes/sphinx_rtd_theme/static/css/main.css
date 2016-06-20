@@ -60,9 +60,6 @@
   	float: right;
   	width: 33%;
   }
-  .page__button > a + a{
-  	float: right;
-  }
   .page__button > a{
   	font-size: 14px;
   	font-family: Roboto;
@@ -70,6 +67,7 @@
   	color: #009688;
   	text-decoration: none;
   	padding: 12px 27px;
+  	display: inline-block;
   }
   .page__button--top > a:hover{
   	opacity: .26;
