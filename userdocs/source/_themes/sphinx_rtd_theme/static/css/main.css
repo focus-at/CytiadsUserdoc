@@ -60,6 +60,9 @@
   	float: right;
   	width: 33%;
   }
+  .page__button > a + a{
+  	float: right;
+  }
   .page__button > a{
   	font-size: 14px;
   	font-family: Roboto;
