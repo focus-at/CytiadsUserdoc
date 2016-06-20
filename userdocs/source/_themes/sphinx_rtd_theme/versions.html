@@ -1,16 +1,11 @@
 {% if READTHEDOCS %}
     <label>
-      {{ current_version }}
+      {{language}}
       <div class="dropdown__button"></div>
       <input class="dropdown__checkbox" type="checkbox">
       <div class="dropdown__menu">
-          {{current_lang }}
-          {{current_language }}
-          {{language }}
-          {{lang}}
-          {{get_html_lang}}
-          
-          {{locale}}
+        <span>ru</span>
+        <span>en</span>
       </div>
     </label>
 {% endif %}
