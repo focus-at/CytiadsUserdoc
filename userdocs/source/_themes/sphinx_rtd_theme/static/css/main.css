@@ -57,6 +57,7 @@
   	font-size: 14px;
   	text-transform: uppercase;
   	color: #009688;
+  	text-decoration: none;
   }
   .page__button--top > a:hover{
   	opacity: .26;
