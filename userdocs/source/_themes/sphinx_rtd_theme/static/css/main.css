@@ -5044,7 +5044,7 @@ h3 {
 h4 {
     font-size: 16px;
     font-family: DINWebPro;
-    font-weight: normal;
+    font-weight: 500;
     line-height: 20px;
 margin-bottom: 16px;
 }
@@ -6496,7 +6496,8 @@ a .rst-content code {
 
 .rst-content p.rubric {
     margin-bottom: 12px;
-    font-weight: bold
+    font: 20px/24px DINWebPro;
+    color: #000;
 }
 
 .rst-content tt.download,
