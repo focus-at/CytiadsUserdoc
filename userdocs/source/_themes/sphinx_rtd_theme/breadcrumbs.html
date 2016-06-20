@@ -8,7 +8,7 @@
 
   {% if next or prev %}
     <div class="page__button--top" role="navigation" aria-label="navigation">
-      
+      {%- block page-buttons %} {% endblock %}
     </div>
   {% endif %}
   
