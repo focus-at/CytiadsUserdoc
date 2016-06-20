@@ -91,7 +91,7 @@
   	display: inline-block;
   }
   .page__button--top{
-  	margin-top: -13px;
+  	margin: 17px 32px 0 0;
   }
   .page__button--top > a:hover{
   	opacity: .26;
