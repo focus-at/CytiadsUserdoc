@@ -70,6 +70,9 @@
   	font: 15px/20px DINWebPro;
   	color: #8a8a8a;
   }
+  .content-top-shadow{
+  box-shadow: 0 2px 4px rgba(0,0,0,.2);	
+  }
   .rst-content > .section{
   	background: #fff;
   	color: #212121;
