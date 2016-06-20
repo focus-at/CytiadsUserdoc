@@ -248,6 +248,9 @@ width: 251px;
 .menu ul li ul {
     display: none;
 }
+.toctree-l4{
+	display: none;
+}
 .wy-side-scroll{
   overflow: auto;
   overflow-y: scroll;
