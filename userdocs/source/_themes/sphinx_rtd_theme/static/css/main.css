@@ -412,14 +412,14 @@ span.navigation-path__item{
     }
     .dropdown__button{
       margin-top: -3px;
-      width: 6px;
-      height: 6px;
-      background: #f2f2f2 url(../images/sprite.png) -32px 2px no-repeat;
-      display: inline-block;
-      vertical-align: middle;
-      border: 9px solid #f2f2f2;
-      cursor: pointer;
-      box-sizing: content-box;
+    width: 6px;
+    height: 6px;
+    background: transparent url(../images/sprite.png) -32px 2px no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    border: 9px solid #4db6ac;
+    cursor: pointer;
+    box-sizing: content-box;
     }
     .dropdown__menu{
       position: absolute;
