@@ -55,8 +55,10 @@
   .section{
   	font-family: Adelle;
   	font-size: 14px;
+  }
+  .rst-content .section{
   	background: #fff;
-        padding: 32px;
+        padding: 32px;	
   }
   .page__button{
   	float: right;
