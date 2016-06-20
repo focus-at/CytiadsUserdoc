@@ -4923,6 +4923,9 @@ input[type="checkbox"][disabled] {
     width: 100%;
     line-height: 20px;
 }
+.wy-table-responsive th{
+	font-weight: 500;
+}
 .wy-table-responsive th,
 .wy-table-responsive td{
 	padding: 8px;
