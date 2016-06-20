@@ -102,8 +102,10 @@
   </div>
   <div class="content">
   	<div class="rst-content">
-	    {% include "breadcrumbs.html" %}
-	    {% block body %}{% endblock %}
+  		<div class="content-top-shadow">
+	    		{% include "breadcrumbs.html" %}
+			{% block body %}{% endblock %}
+	    	</div>
 	</div>
 	{% include "footer.html" %}
     <!--
