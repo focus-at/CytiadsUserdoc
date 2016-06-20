@@ -1,4 +1,10 @@
 <footer>
+  {% if next or prev %}
+    <div class="page__button" role="navigation" aria-label="navigation">
+      {% include "age-buttons.html" %}
+    </div>
+  {% endif %}
+  <!--
   <div role="contentinfo">
     <p>
     {%- if show_copyright %}
@@ -34,6 +40,6 @@
   {%- endif %}
 
   {%- block extrafooter %} {% endblock %}
-
+-->
 </footer>
 
