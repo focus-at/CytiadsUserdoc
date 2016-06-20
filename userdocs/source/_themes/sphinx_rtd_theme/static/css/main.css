@@ -128,6 +128,10 @@ a {
 	right: 0;
 	z-index: 2;
 }
+.header__logo-link{
+	display: inline-block;
+	margin-top: 5px;
+}
 .header__logo,
 .header__title{
 	display: inline-block;
@@ -135,7 +139,7 @@ a {
 }
 .header__title{
 	display: none;
-	margin: 1px 0 0 25px;
+	margin: 2px 0 0 25px;
 	font-size: 14px;
 }
 
