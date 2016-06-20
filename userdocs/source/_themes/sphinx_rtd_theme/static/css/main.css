@@ -5820,7 +5820,8 @@ div[class^='highlight'] pre {
 }
 
 footer {
-    color: #999
+    margin: 0 auto;
+    max-width: 992px;
 }
 
 footer p {
