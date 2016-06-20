@@ -5018,6 +5018,7 @@ p {
 
 h1 {
 	font-size: 32px;
+	font-family: DINWebPro;
 	font-weight: normal;
 	line-height: 36px;
 	margin-bottom: 16px;
@@ -5027,6 +5028,7 @@ h1 {
 h2,
 .rst-content .toctree-wrapper p.caption {
     	font-size: 24px;
+    	font-family: DINWebPro;
 	font-weight: normal;
 	line-height: 28px;
 	margin-bottom: 16px;
@@ -5034,6 +5036,7 @@ h2,
 
 h3 {
     	font-size: 20px;
+    	font-family: DINWebPro;
 	font-weight: normal;
 	line-height: 24px;
 	margin-bottom: 16px;
@@ -5041,6 +5044,7 @@ h3 {
 
 h4 {
     font-size: 16px;
+    font-family: DINWebPro;
     font-weight: normal;
     line-height: 20px;
 margin-bottom: 16px;
