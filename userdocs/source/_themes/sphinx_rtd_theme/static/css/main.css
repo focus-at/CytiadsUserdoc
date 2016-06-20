@@ -6310,14 +6310,18 @@ footer span.commit .rst-content tt,
     font-size: 100%
 }
 
-.rst-content .highlighted {     
-	background: #80cbc4;     
-	display: inline-block;     
-	font-weight: 500;     
-	padding: 3px 6px;    
-	margin-top: -2px; 
+.rst-content .highlighted,
+.rst-content .guilabel{     
+background: #80cbc4;
+    display: inline-block;
+    font-weight: 500;
+    padding: 0px 6px;
+    margin-top: -2px;
+    font-family: DINWebPro;
 }
-
+.rst-content .guilabel{
+	color: #fff;
+}
 .rst-content .footnote-reference,
 .rst-content .citation-reference {
     vertical-align: super;
