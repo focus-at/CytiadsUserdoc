@@ -6402,6 +6402,7 @@ a .rst-content code {
     text-transform: uppercase;
     font: 12px/20px DINWebPro;
     font-weight: 500;
+    margin-bottom: 3px;
 }
 
 .rst-content dl p,
