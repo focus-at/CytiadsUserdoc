@@ -4812,7 +4812,8 @@ input[type="checkbox"][disabled] {
 .wy-table thead th,
 .rst-content table.docutils thead th,
 .rst-content table.field-list thead th {
-    font-weight: bold;
+    font-weight: 500;
+    font-family: DINWebPro;
     border-bottom: solid 2px #e1e4e5
 }
 
@@ -4922,9 +4923,6 @@ input[type="checkbox"][disabled] {
     margin-bottom: 0 !important;
     width: 100%;
     line-height: 20px;
-}
-.wy-table-responsive th{
-	font-weight: 500;
 }
 .wy-table-responsive th,
 .wy-table-responsive td{
