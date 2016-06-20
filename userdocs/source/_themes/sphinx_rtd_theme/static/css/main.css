@@ -349,9 +349,11 @@ th.head {
   .content{
   	margin-left: 284px;
   }
-  .header__title{
-  	display: inline-block;
-  }
+  .header__title {
+    display: inline-block;
+    color: rgba(255,255,255,0.8);
+    text-transform: uppercase;
+}
   .header__search{
   	left: 348px;
   }
