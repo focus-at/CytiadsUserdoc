@@ -73,7 +73,8 @@
   .content-top-shadow{
   box-shadow: 0 2px 4px rgba(0,0,0,.2);	
   }
-  .rst-content > .section{
+  .rst-content > .section,
+  .rst-content > #search-results{
   	background: #fff;
   	color: #212121;
         padding: 32px;
