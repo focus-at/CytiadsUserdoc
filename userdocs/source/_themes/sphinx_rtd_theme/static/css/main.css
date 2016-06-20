@@ -70,6 +70,9 @@
   	padding: 12px 27px;
   	display: inline-block;
   }
+  .page__button--top{
+  	margin-top: -13px;
+  }
   .page__button--top > a:hover{
   	opacity: .26;
   }
