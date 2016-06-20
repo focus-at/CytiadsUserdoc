@@ -6147,12 +6147,16 @@ footer span.commit .rst-content tt,
 .rst-content img {
     max-width: 100%;
     height: auto !important
+    
 }
 
 .rst-content div.figure {
-    margin-bottom: 24px
+    margin-bottom: 24px;
+    background: #e5e5e5;
 }
-
+.rst-content div.figure img{
+    opacity: .9;
+}
 .rst-content div.figure p.caption {
     font-style: italic
 }
