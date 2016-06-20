@@ -59,7 +59,7 @@
   .page__button{
   	float: right;
   	text-align: right;
-  	width: 33%;
+  	width: 50%;
   }
   .page__button > a{
   	font-size: 14px;
