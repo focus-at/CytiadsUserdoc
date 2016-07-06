@@ -158,6 +158,12 @@
         hashChange();
         //setTimeout(reposition);
         SphinxRtdTheme.StickyNav.enable();
+        
+        Array.prototype.filter.call(document.links, function(item){
+		if(item.href == location.href){
+			item.scrollIntoView()
+		}
+	})
       });
   </script>
 </body>
