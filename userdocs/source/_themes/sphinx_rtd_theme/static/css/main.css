@@ -348,6 +348,9 @@ th.head {
     padding-right: 9px;
     position: absolute;
     left: 0;
+    font-size: 14px;
+    font-family: DINWebPro;
+    line-height: 19px;
 }
 
 .content ol > li > ol{
