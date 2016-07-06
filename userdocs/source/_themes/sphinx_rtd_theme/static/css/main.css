@@ -52,6 +52,9 @@
   	font-weight: 900;
   	font-style: normal;
   }
+  .download--htmlzip{
+  	background: url(../images/save--blue.png) no-repeat;
+  }
   .content-top-shadow + .section > h1:first-child{
 	margin-top: -11px;
 }
