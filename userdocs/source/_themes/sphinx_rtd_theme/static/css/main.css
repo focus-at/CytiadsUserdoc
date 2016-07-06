@@ -380,6 +380,7 @@ th.head {
 .content ul li {
     list-style: none !important;
     margin-left: 32px !important;
+    margin-bottom: 8px;
 }
 .rst-content{
 	max-width: 992px;
