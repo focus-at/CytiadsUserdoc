@@ -413,6 +413,9 @@ th.head {
 .admonition-title {
     display: none !important;
 }
+.admonition b, .admonition strong, .admonition a{
+	color: #8a8a8a !important;
+}
 @media (min-width: 700px) {
   .menu{
     display: block;
