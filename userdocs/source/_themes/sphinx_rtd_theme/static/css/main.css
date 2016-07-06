@@ -47,13 +47,6 @@
   	font-weight: 400;
   	font-style: italic;
   }
-  @font-face {
-  	font-family: Roboto;
-  	src: url("../fonts/roboto/Roboto-Medium.woff2") format("woff2"),
-  	     url("../fonts/roboto/Roboto-Medium.woff") format("woff");
-  	font-weight: 900;
-  	font-style: normal;
-  }
   .download--htmlzip {
     background: url(../images/save--blue.png) no-repeat;
     padding: 6px 27px 10px;
@@ -104,7 +97,7 @@
   }
   .page__button > a{
   	font-size: 14px;
-  	font-family: Roboto;
+  	font-family: DINWebPro;
   	text-transform: uppercase;
   	color: #009688;
   	text-decoration: none;
