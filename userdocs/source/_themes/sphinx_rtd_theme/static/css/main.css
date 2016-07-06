@@ -52,6 +52,9 @@
   	font-weight: 900;
   	font-style: normal;
   }
+  .content-top-shadow + .section > h1:first-child{
+	margin-top: -11px;
+}
 .std-term {
     font: 12px/20px DINWebPro;
     color: #26A69A;
