@@ -35,13 +35,15 @@
   }
     @font-face {
   	font-family: Adelle;
-  	src: url("../fonts/adelle/Adelle-Regular.woff") format("woff");
+  	src: url("../fonts/DIN Serif/PFDINSerifRegular.woff2") format("woff2"),
+  	     url("../fonts/DIN Serif/PFDINSerifRegular.woff") format("woff");
   	font-weight: 400;
   	font-style: normal;
   }
     @font-face {
   	font-family: Adelle;
-  	src: url("../fonts/adelle/Adelle-Italic.woff") format("woff");
+  	src: url("../fonts/DIN Serif/PFDINSerifRegularItalic.woff2") format("woff2"),
+  	     url("../fonts/DIN Serif/PFDINSerifRegularItalic.woff") format("woff");
   	font-weight: 400;
   	font-style: italic;
   }
