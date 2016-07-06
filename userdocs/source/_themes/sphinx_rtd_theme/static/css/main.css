@@ -52,9 +52,17 @@
   	font-weight: 900;
   	font-style: normal;
   }
-  .download--htmlzip{
-  	background: url(../images/save--blue.png) no-repeat;
-  }
+  .download--htmlzip {
+    background: url(../images/save--blue.png) no-repeat;
+    padding: 6px 27px 10px;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    color: #000;
+    margin-top: 23px;
+    font-size: 12px;
+    margin-left: 32px;
+}
   .content-top-shadow + .section > h1:first-child{
 	margin-top: -11px;
 }
