@@ -339,6 +339,7 @@ th.head {
 .content ol > li {
 	list-style: none !important;
 	margin-left: 32px !important;
+	margin-bottom: 8px;
 }
 .content ol > li:before {
     counter-increment: list;
