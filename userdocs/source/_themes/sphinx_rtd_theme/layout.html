@@ -163,7 +163,12 @@
 		if(item.href == location.href){
 			item.scrollIntoView()
 		}
-	})
+	});
+	
+	document.querySelector('.dropdown__menu').addEventListener('mousedown', function(e){
+		e.preventDefault();
+	});
+
       });
   </script>
 </body>
