@@ -494,7 +494,7 @@ span.navigation-path__item{
       position: absolute;
       clip: rect(0,0,0,0);
     }
-    .dropdown__checkbox:checked ~ .dropdown__menu{
+    .dropdown__checkbox:focus ~ .dropdown__menu{
         display: block;
         background: #fff;
     	padding: 0 16px 8px 8px;
