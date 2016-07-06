@@ -3462,7 +3462,7 @@ a .icon {
 .rst-content .seealso,
 .rst-content .admonition-todo {
     padding: 0 12px;
-    line-height: 24px;
+    line-height: 20px;
     margin-bottom: 24px;
     background: #e7f2fa
 }
@@ -5185,7 +5185,7 @@ article ul li ol li {
 .rst-content ol.arabic,
 article ol {
     list-style: decimal;
-    line-height: 24px;
+    line-height: 20px;
     margin-bottom: 24px
 }
 
@@ -6182,7 +6182,7 @@ footer span.commit .rst-content tt,
 
 .rst-content blockquote {
     margin-left: 24px;
-    line-height: 24px;
+    line-height: 20px;
     margin-bottom: 24px
 }
 
