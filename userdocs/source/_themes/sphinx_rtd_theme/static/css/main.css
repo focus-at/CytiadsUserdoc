@@ -104,7 +104,9 @@
   .page__button--top > a:hover{
   	opacity: .26;
   }
-  
+  .page__button--bottom{
+  	    margin: 16px 0 32px;
+  }
   .page__button--bottom > a:hover{
   	background: #e0e0e0;
   }
