@@ -382,6 +382,10 @@ th.head {
     margin-left: 32px !important;
     margin-bottom: 8px;
 }
+.content .admonition ul li{
+	margin-bottom: 0;
+}
+}
 .rst-content{
 	max-width: 992px;
 }
