@@ -150,7 +150,7 @@ a {
     top: 21px;
     bottom: 24px;
     padding-top: 7px;
-    border-bottom: 1px solid #e0e0e0;
+    border-bottom: 1px solid rgba(255,255,255,.54);
 }
 .header__search:before{
 	content: '';
