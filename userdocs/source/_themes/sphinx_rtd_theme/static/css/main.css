@@ -47,7 +47,7 @@
   	font-weight: 400;
   	font-style: italic;
   }
-  ul > li > ul {
+ li > ul {
     margin-top: 10px;
 }
 .align-center {
