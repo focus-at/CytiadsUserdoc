@@ -51,6 +51,7 @@
     margin-top: 10px;
 }
 .icon--menu{
+	cursor: pointer;
     border-bottom: 3px solid #fff;
     border-top: 10px double #fff;
     height: 3px;
