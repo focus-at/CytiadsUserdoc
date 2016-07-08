@@ -87,7 +87,7 @@
   	color: #8a8a8a;
   }
   .content-top-shadow{
-  box-shadow: 0 2px 4px rgba(0,0,0,.2);	
+  box-shadow: 0 2px 3px rgba(0,0,0,.2);	
   }
   .rst-content > .section,
   .rst-content > #search-results{
@@ -95,7 +95,7 @@
   	color: #212121;
         padding: 32px;
         margin-bottom: 16px;
-        box-shadow: 0 2px 4px rgba(0,0,0,.2);
+        box-shadow: 0 2px 3px rgba(0,0,0,.2);
   }
   .page__button{
   	float: right;
