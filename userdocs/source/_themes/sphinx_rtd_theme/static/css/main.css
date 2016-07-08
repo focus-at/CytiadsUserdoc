@@ -404,6 +404,7 @@ th.head {
 }
 .rst-content{
 	max-width: 992px;
+	margin: 0 auto;
 }
 .figure{
 	clear: both;
