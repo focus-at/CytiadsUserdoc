@@ -362,6 +362,7 @@ th.head {
 }
 
 .content ol > li > ol{
+	margin-top: 16px;
 	counter-reset: list2;
 }
 .content ol > li > ol > li{
