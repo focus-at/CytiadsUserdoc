@@ -457,6 +457,9 @@ th.head {
   .menu{
     display: block;
   }
+  .menu--icon{
+  	display: none;
+  }
   .content{
   	margin-left: 284px;
   }
