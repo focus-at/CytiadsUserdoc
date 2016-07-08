@@ -162,6 +162,7 @@ a {
 
 .header__search{
     max-width: 928px;
+    margin: 0 auto;
     position: absolute;
     left: 190px;
     right: 80px;
@@ -453,7 +454,7 @@ th.head {
     text-transform: uppercase;
 }
   .header__search{
-  	left: 348px;
+  	left: 365px;
   }
 }
 
