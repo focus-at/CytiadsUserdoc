@@ -141,6 +141,7 @@
       	var menu = document.querySelector('.menu');
 	var menuBtn = document.querySelector('.icon--menu');
 	function toggleMenu(){
+		console.log('toggle');
 		var state = menuBtn.dataset.opened ? null : true;
 		if(state){
 			menu.dataset.opened = state;
