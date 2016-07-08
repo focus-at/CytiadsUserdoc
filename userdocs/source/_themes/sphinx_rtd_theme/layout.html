@@ -138,6 +138,18 @@
 		});
       	}
       	
+      	var menu = document.querySelector('.menu');
+	var menuBtn = document.querySelector('.icon--menu');
+	function toggleMenu(){
+		var state = menuBtn.dataset.opened ? null : true;
+		if(state){
+			menu.dataset.opened = state;
+			menuBtn.dataset.opened = state;
+		}else{
+			delete menu.dataset.opened;
+			delete menuBtn.dataset.opened;
+		}
+	}
         function hashChange(){
       		var hash = document.location.hash;
       		var $root = $('html, body');
@@ -151,6 +163,7 @@
       		    	});
       		    }
       		});
+      		toggleMenu();
       	}
       	
         window.addEventListener("hashchange", hashChange);
@@ -170,17 +183,7 @@
 		e.preventDefault();
 	});
 	
-	var menu = document.querySelector('.menu');
-	document.querySelector('.icon--menu').addEventListener('click', function(){
-		var state = this.dataset.opened ? null : true;
-		if(state){
-			menu.dataset.opened = state;
-			this.dataset.opened = state;
-		}else{
-			delete menu.dataset.opened;
-			delete this.dataset.opened;
-		}
-	});
+	menuBtn.addEventListener('click', toggleMenu);
 
       });
   </script>
