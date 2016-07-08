@@ -47,6 +47,10 @@
   	font-weight: 400;
   	font-style: italic;
   }
+.align-center {
+    display: block;
+    margin: 0 auto;
+}
   .download--htmlzip {
     background: url(../images/save--blue.png) no-repeat;
     padding: 6px 27px 10px;
