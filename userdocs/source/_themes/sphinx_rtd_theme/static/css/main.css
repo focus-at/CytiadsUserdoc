@@ -147,7 +147,7 @@ a {
 	z-index: 2;
 }
 .header__logo__link{
-	display: inline-block;
+	display: none;
 }
 .header__logo,
 .header__title{
@@ -452,6 +452,9 @@ th.head {
     display: inline-block;
     color: rgba(255,255,255,0.8);
     text-transform: uppercase;
+}
+.header__logo__link{
+	display: inline-block;
 }
   .header__search{
   	left: 365px;
