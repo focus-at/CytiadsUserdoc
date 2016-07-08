@@ -169,6 +169,18 @@
 	document.querySelector('.dropdown__menu').addEventListener('mousedown', function(e){
 		e.preventDefault();
 	});
+	
+	var menu = document.querySelector('.menu');
+	document.querySelector('.icon--menu').addEventListener('click', function(){
+		var state = this.dataset.opened ? null : true;
+		if(state){
+			menu.dataset.opened = state;
+			this.dataset.opened = state;
+		}else{
+			delete menu.dataset.opened;
+			delete this.dataset.opened;
+		}
+	});
 
       });
   </script>
