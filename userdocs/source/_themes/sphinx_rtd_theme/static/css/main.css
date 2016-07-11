@@ -433,6 +433,8 @@ th.head {
 	background: #fff !important;
 	color: #8a8a8a;
 	font-family: DINWebPro;
+	position: relative;
+	z-index: 1;
 }
 @media (min-width: 1024px) {
 	.admonition{
